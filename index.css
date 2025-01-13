@@ -189,6 +189,44 @@ footer {
     text-align: center;
 }
 
+/* Mobile devices */
+@media (max-width: 767px) {
+    /* Styles for mobile screens */
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul li {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 2px;
+        text-align: center;
+        border-radius: 8px;
+    }
+  }
+
+/* Tablet devices */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablet screens */
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul li {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 2px;
+        text-align: center;
+        border-radius: 8px;
+    }
+  }
+
 /* .footer :hover{
     background-color: #fff;
 } */
